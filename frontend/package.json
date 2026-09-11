@@ -1,0 +1,20 @@
+{
+  "name": "makeup-reference-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "node --test test/face-analysis.test.js"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.0.1",
+    "lucide-vue-next": "0.468.0",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.2.1",
+    "vite": "6.0.7"
+  }
+}

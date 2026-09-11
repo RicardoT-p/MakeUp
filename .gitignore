@@ -1,0 +1,15 @@
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/.pnpm-node_modules-backup/
+backend/target/
+.idea/
+.vscode/
+.video-frames/
+.sites-runtime/
+*.log
+.npm-cache/
+*.jks
+*.p12
+.env
+application-local.yml

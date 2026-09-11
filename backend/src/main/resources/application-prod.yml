@@ -1,0 +1,12 @@
+server:
+  ssl:
+    enabled: true
+    key-store: ${TLS_KEY_STORE}
+    key-store-password: ${TLS_KEY_STORE_PASSWORD}
+    key-store-type: PKCS12
+  servlet:
+    session:
+      cookie:
+        secure: true
+        http-only: true
+        same-site: strict
